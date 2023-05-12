@@ -9,6 +9,7 @@ function Main() {
             <HomeSection />
             <AboutSection />
             <WorkSection />
+            <AboutSection />
         </main>
     )
 }

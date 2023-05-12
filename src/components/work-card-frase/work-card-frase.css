@@ -1,0 +1,107 @@
+.card-frase {
+    max-width: 1000px;
+    margin-top: 160px;
+    height: auto;
+    display: flex;
+    gap: 50px;
+}
+.card-frase__figure {
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+    object-fit: contain;
+    overflow: hidden;
+}
+.card-frase__figure img{
+    width: 100%;
+    height: 100%;
+}
+.card-frase__contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-frase__frase-container {
+    padding-bottom: 40px;
+}
+.card-frase__frase-container p {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 4.5rem;
+    text-align: start;
+    /* text-wrap: balance; */
+}
+.card-frase__autor-container {
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.card-frase__autor-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.card-frase__autor-container img{
+    width: auto;
+    height: 32px;
+    padding-top: 4px;
+}
+.card-frase__autor {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #3B53FE;
+    padding-bottom: 4px;
+}
+.card-frase__cargo {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+@media screen and (min-width: 1366px){
+    .card-frase {
+        min-width: 1000px;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 1024px){
+    .card-frase {
+        margin-top: 80px;
+    }
+    .card-frase__figure {
+        width: 400px;
+        height: 250px;
+    }
+    .card-frase__frase-container {
+        max-width: 400px;
+    }
+    .card-frase__frase-container p {
+        font-size: 3.5rem;
+        font-weight: bold;
+        line-height: 3.5rem;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 500px){
+    .card-frase {
+        margin-top: 40px;
+    }
+    .card-frase__figure {
+        width: 320px;
+        height: 150px;
+    }
+    .card-frase__frase-container {
+        max-width: 320px;
+    }
+    .card-frase__frase-container p {
+        font-size: 3rem;
+        font-weight: bold;
+        line-height: 3rem;
+    }
+}
+@media screen and (max-width: 1024px){
+    .card-frase {
+        flex-direction: column;
+        align-items: center;
+        gap: 28px;
+    }
+}
+

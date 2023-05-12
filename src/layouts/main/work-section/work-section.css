@@ -1,14 +1,14 @@
 .work-section {
     position: relative;
     width: 100%;
-    height: 200vh;
+    min-height: 200vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 100px;
     text-align: center;
     color: #fafafa;
-    background-color: #23243c;
+    background: linear-gradient(to bottom, rgba(35,36,60,1) 0%, rgba(45,46,70,1) 100%);
 }
 .work-section__cards {
     max-width: 900px;
@@ -58,7 +58,57 @@
 .work-section__card-container:hover img {
     filter: brightness(0.4);
 }
+.work-section__wave {
+    position: absolute;
+    bottom: -270px;
+    z-index: 99;
+}
 
+@media screen and (max-width: 380px) {
+    .work-section__wave {
+        bottom: -70px;
+    }
+}
+@media screen and (min-width: 381px) and (max-width: 474px) {
+    .work-section__wave {
+        bottom: -84px;
+    }
+}
+@media screen and (min-width: 475px) and (max-width: 600px) {
+    .work-section__wave {
+        bottom: -100px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 740px) {
+    .work-section__wave {
+        bottom: -130px;
+    }
+}
+@media screen and (min-width: 741px) and (max-width: 900px) {
+    .work-section__wave {
+        bottom: -162px;
+    }
+}
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+    .work-section__wave {
+        bottom: -180px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1170px) {
+    .work-section__wave {
+        bottom: -200px;
+    }
+}
+@media screen and (min-width: 1070px) and (max-width: 1200px) {
+    .work-section__wave {
+        bottom: -220px;
+    }
+}
+@media screen and (min-width: 1500px) {
+    .work-section__wave {
+        bottom: -300px;
+    }
+}
 @media screen and (max-width: 500px) {
     .work-section__cards {
         padding: 0px;
