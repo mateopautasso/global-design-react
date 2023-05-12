@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/global-design-react/static/css/main.71c440a0.css",
-    "main.js": "/global-design-react/static/js/main.01ae7ea6.js",
+    "main.css": "/global-design-react/static/css/main.55085ce0.css",
+    "main.js": "/global-design-react/static/js/main.02cfd18c.js",
     "static/media/computerCompres.png": "/global-design-react/static/media/computerCompres.21e7b44d134ded99989c.png",
     "static/media/work4.jpg": "/global-design-react/static/media/work4.30cca26d32c1b0fb68ce.jpg",
     "static/media/work3.jpg": "/global-design-react/static/media/work3.2ebf61950ef0240702c9.jpg",
-    "static/media/LOGO2.png": "/global-design-react/static/media/LOGO2.6dca88ac0f0a1c1711de.png",
+    "static/media/FAVICON.png": "/global-design-react/static/media/FAVICON.d7c059e8149024967763.png",
     "static/media/work2.jpg": "/global-design-react/static/media/work2.d779ee96b95201c6e908.jpg",
     "static/media/work1.jpg": "/global-design-react/static/media/work1.bc98b157dae056f8aabd.jpg",
+    "static/media/FONDO.png": "/global-design-react/static/media/FONDO.57eec561d74ba252277d.png",
     "index.html": "/global-design-react/index.html",
-    "main.71c440a0.css.map": "/global-design-react/static/css/main.71c440a0.css.map",
-    "main.01ae7ea6.js.map": "/global-design-react/static/js/main.01ae7ea6.js.map"
+    "main.55085ce0.css.map": "/global-design-react/static/css/main.55085ce0.css.map",
+    "main.02cfd18c.js.map": "/global-design-react/static/js/main.02cfd18c.js.map"
   },
   "entrypoints": [
-    "static/css/main.71c440a0.css",
-    "static/js/main.01ae7ea6.js"
+    "static/css/main.55085ce0.css",
+    "static/js/main.02cfd18c.js"
   ]
 }
