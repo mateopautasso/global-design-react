@@ -1,0 +1,14 @@
+.work-card__sub {
+    background-color: #fafafa;
+    text-align: center;
+    color: #23243c;
+    padding: 8px 12px;
+    border-radius: 16px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+@media screen and (max-width: 800px) {
+    .work-card__sub {
+        font-size: 1.3rem;
+    }
+}

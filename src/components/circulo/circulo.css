@@ -1,0 +1,46 @@
+.circulo-decoration {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.circulo-decoration--negro {
+    background-color: #424242;
+}
+.circulo-decoration--azul {
+    background-color: #00bdff;
+}
+.circulo-decoration--negro::before {
+    background-color: #282828;
+        content: "";
+    width: 105%;
+    height: 105%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    right: 13px;
+}
+.circulo-decoration--azul::before {
+    content: "";
+    width: 105%;
+    height: 105%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    right: 13px;
+    background-color: #3B53FE;
+}
+@media screen and (max-width:500px){
+    .circulo-decoration {
+        position: absolute;
+        width: 325px;
+        height: 325px;
+    }
+}
+@media screen and (min-width: 501px) and (max-width:1024px){
+    .circulo-decoration {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+    }
+}

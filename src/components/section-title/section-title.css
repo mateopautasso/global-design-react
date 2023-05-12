@@ -1,0 +1,25 @@
+.section-title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section-title__sub {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #3B53FE;
+    margin-left: 4px;
+}
+.section-title__title {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px){
+    .section-title__title {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    .section-title {
+        gap: 0px;
+    }
+}

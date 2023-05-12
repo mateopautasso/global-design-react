@@ -1,0 +1,123 @@
+.home__left {
+    display: flex;
+}
+.home__left {
+    padding-bottom: 50px;
+    padding-left: 6px;
+}
+.home__redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+.home__redes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.redes-icon {
+    width: 32px;
+    height: 32px;
+    color: #3B53FE;
+}
+.redes-icon--insta {
+    width: 34px;
+    height: 34px;
+}
+.redes-icon--tiktok {
+    margin-top: 6px;
+    width: 30px;
+    height: 30px;
+}
+
+.home__redes-container .redes-icon {
+    transition: all 0.1s;
+}
+.home__redes-container a:hover .redes-icon {
+    transform: scale(1.1);
+}
+
+.home__line-top,
+.home__line-bottom {
+    width: 2px;
+    height: 120px;
+    background-color: #3B53FE;
+}
+.home__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    gap: 12px;
+    padding: 4px 0px 0px 50px;
+}
+.home__content div:nth-child(2) {
+    margin-bottom: 16px;
+}
+.home__p {
+    color: #3B53FE;
+    font-weight: 300;
+}
+.home__p::after {
+    content: ' GLOBAL DESIGN';
+    font-weight: 800;
+}
+.home__title {
+    display: inline;
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 70px;
+    letter-spacing: -2px;
+    text-wrap: balance;
+}
+.home__title--blue {
+    display: inline;
+    color: #3B53FE;
+}
+@media screen and (min-width: 600px) and (max-width: 900px){
+    .home__line-top,
+    .home__line-bottom {
+        height: 80px;
+    }
+
+    .home__title {
+        font-size: 5rem;
+        line-height: 55px;
+    }
+    .home__content {
+        padding-left: 24px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .home__title {
+        font-size: 5rem;
+        line-height: 55px;
+    }
+    .home__content {
+        padding-left: 24px;
+    }
+}
+@media screen and (max-width: 500px){
+    .redes-icon {
+        width: 24px;
+        height: 24px;
+    }
+    .redes-icon--insta {
+        width: 26px;
+        height: 26px;
+    }
+    .redes-icon--tiktok {
+        margin-top: 6px;
+        width: 22px;
+        height: 22px;
+    }
+    .home__title {
+        font-size: 5rem;
+        line-height: 55px;
+    }
+    .home__content {
+        padding-left: 12px;
+    }
+}

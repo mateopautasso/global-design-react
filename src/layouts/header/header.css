@@ -1,0 +1,34 @@
+.header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 0vh;
+}
+.scrolled a {
+    color: #fafafa;
+    transition: all 0.2s;
+}
+.scrolled .cambio-idioma {
+    color: #fafafa;
+    transition: all 0.2s;
+}
+.scrolled .cambio-idioma__arrow{
+    color: #fafafa;
+    transition: all 0.2s;
+}
+.scrolled .cambio-idioma__idioma{
+    color: #fafafa;
+    transition: all 0.2s!important;
+}
+.scrolled .cambio-idioma__line{
+    background-color: #fafafa;
+    transition: all 0.2s;
+}
+.oculte-nav .header__nav--mid {
+    opacity: 0;
+    transition: all 0.3s;
+}
+.show-nav .header__nav--mid {
+    opacity: 1;
+    transition: all 0.3s;
+}

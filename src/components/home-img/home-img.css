@@ -1,0 +1,8 @@
+.home__right {
+    padding-top: 50px;
+    display: flex;
+}
+.home__figure {
+    min-width: 400px;
+    max-width: 600px;
+}

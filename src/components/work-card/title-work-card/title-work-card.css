@@ -1,0 +1,10 @@
+.work-card__title {
+    color: #fafafa;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+@media screen and (max-width: 800px) {
+    .work-card__title {
+        font-size: 3rem;
+    }
+}
