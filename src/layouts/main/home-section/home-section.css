@@ -17,10 +17,12 @@
         height: 90vh!important;
     }
 }
-@media screen and (max-width:800px){
+@media screen and (min-width: 501px) and (max-width:800px){
+    .home-section {
+        padding: 0 60px;
+    }
     .companies-trust {
         top: 90%;
-        left: 50%;
     }
 }
 @media screen and (max-width:500px){
@@ -28,17 +30,12 @@
         padding: 0 20px;
         padding-left: 8px;
     }
-}
-  @media screen and (min-width: 501px) and (max-width:800px){
-    .home-section {
-        padding: 0 60px;
+    .companies-trust {
+        top: 85%;
     }
 }
-  @media screen and (min-width: 801px) and (max-width:1024px){
+@media screen and (min-width: 801px) and (max-width:1024px){
     .home-section {
         padding: 0 80px;
-    }
-    .companies-trust {
-        top: 100%;
-    }
+    } 
 }

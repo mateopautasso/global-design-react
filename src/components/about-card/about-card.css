@@ -66,15 +66,17 @@
         gap: 20px;
     }
 }
+@media screen and (max-width: 500px){
+    .about-card__p {
+        min-height: 140px;
+        margin-bottom: 20px;
+    }
+}
 @media screen and (max-width: 1000px){
     .about-card {
         text-align: center;
         flex-direction: column;
         max-width: 600px;
-    }
-    .about-card__p {
-        min-height: 140px;
-        margin-bottom: 20px;
     }
     .about-card__btn-container {
         flex-wrap: wrap;
