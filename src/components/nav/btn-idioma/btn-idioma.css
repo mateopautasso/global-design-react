@@ -3,6 +3,7 @@
     position: relative;
     opacity: 1;
     padding-right: 4px;
+    transition: all 0.3s;
 }
 .cambio-idioma__idioma {
     min-width: 23px;
@@ -11,6 +12,7 @@
     cursor: pointer;
     letter-spacing: 1px;
     user-select: none;
+    transition: all 0.2s;
 }
 .cambio-idioma__menu {
     position: absolute;
@@ -19,7 +21,7 @@
     width: 105%;
     visibility: hidden;
     opacity: 0;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 .cambio-idioma__arrow {
     transform: rotate(180deg);

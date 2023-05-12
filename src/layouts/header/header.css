@@ -6,23 +6,22 @@
 }
 .scrolled a {
     color: #fafafa;
-    transition: all 0.2s;
+    transition: all 0.3s;
 }
 .scrolled .cambio-idioma {
     color: #fafafa;
-    transition: all 0.2s;
 }
+
 .scrolled .cambio-idioma__arrow{
     color: #fafafa;
-    transition: all 0.2s;
 }
 .scrolled .cambio-idioma__idioma{
     color: #fafafa;
-    transition: all 0.2s!important;
+    transition: all 0.3s;
 }
 .scrolled .cambio-idioma__line{
     background-color: #fafafa;
-    transition: all 0.2s;
+    transition: all 0.3s;
 }
 .oculte-nav .header__nav--mid {
     opacity: 0;
