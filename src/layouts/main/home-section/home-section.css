@@ -1,17 +1,47 @@
 .home-section {
     padding: 80px 80px 80px 80px;
     position: relative;
+    z-index: 1;
     width: 100%;
     min-height: 110vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.home__right {
+    padding-top: 50px;
+    display: flex;
+}
+.home-section__img-fondo {
+    width: 575px;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    z-index: -1;
+}
+
 .companies-trust {
     position: absolute;
     top: 95%;
     left: 50%;
 }
+
+
+@media screen and (min-width: 1025px) and (max-width: 1366px){
+    .home-section__img-fondo {
+        width: 500px;
+        top: 125px;
+        right: 0px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .home-section__img-fondo {
+        width: 475px;
+        top: 75px;
+        right: 0px;
+    }
+}
+
 @media screen and (max-width:1024px){
     .home-section {
         height: 90vh!important;

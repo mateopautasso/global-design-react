@@ -9,7 +9,7 @@ function Nav() {
 
     const [navMobile, setnavMobile] = useState(true);
 
-    const observerMedia = window.matchMedia("(max-width: 1024px)");
+    const observerMedia = window.matchMedia("(max-width: 1023px)");
     window.addEventListener('load', ()=>{
         setnavMobile(observerMedia.matches)
     })

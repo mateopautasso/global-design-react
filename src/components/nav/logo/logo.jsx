@@ -1,12 +1,13 @@
 import React from "react";
-import Logopng from '../../../assets/logos/LOGO2.png'
+import Logopng from '../../../assets/logos/FAVICON.png'
 import "./logo.css";
 
 function Logo() {
     return (
-        <figure className="header__logo">
+        
+        <a href="/" className="header__logo">
             <img src={Logopng} alt="Logo de Global Design" />
-        </figure>
+        </a>
     );
 }
 

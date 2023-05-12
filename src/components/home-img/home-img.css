@@ -1,8 +1,15 @@
-.home__right {
-    padding-top: 50px;
-    display: flex;
-}
 .home__figure {
-    min-width: 400px;
-    max-width: 600px;
+    position: relative;
+    z-index: 999;
+    width: 600px;
+}
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+    .home__figure{ 
+        width: 500px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .home__figure{ 
+        width: 450px;
+    }
 }

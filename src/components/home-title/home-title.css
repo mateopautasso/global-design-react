@@ -81,16 +81,8 @@
     .home__line-bottom {
         height: 80px;
     }
-
-    .home__title {
-        font-size: 5rem;
-        line-height: 55px;
-    }
-    .home__content {
-        padding-left: 24px;
-    }
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1280px){
     .home__title {
         font-size: 5rem;
         line-height: 55px;
