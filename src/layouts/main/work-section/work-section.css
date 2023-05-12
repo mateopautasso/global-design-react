@@ -59,6 +59,7 @@
     filter: brightness(0.4);
 }
 .work-section__wave {
+    width: 100%;
     position: absolute;
     bottom: -270px;
     z-index: 99;
@@ -66,12 +67,12 @@
 
 @media screen and (max-width: 380px) {
     .work-section__wave {
-        bottom: -70px;
+        bottom: -75px;
     }
 }
 @media screen and (min-width: 381px) and (max-width: 474px) {
     .work-section__wave {
-        bottom: -84px;
+        bottom: -85px;
     }
 }
 @media screen and (min-width: 475px) and (max-width: 600px) {
@@ -112,6 +113,9 @@
 @media screen and (max-width: 500px) {
     .work-section__cards {
         padding: 0px;
+    }
+    .work-section {
+        padding-bottom: 32px;
     }
 }
 @media screen and (max-width: 600px) {
