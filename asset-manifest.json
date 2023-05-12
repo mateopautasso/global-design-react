@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/global-design-react/static/css/main.8001957b.css",
-    "main.js": "/global-design-react/static/js/main.02cfd18c.js",
+    "main.css": "/global-design-react/static/css/main.f81f310d.css",
+    "main.js": "/global-design-react/static/js/main.ace1c9e3.js",
+    "static/media/jeffbezos.jpg": "/global-design-react/static/media/jeffbezos.05061a1f62fed19047c7.jpg",
     "static/media/computerCompres.png": "/global-design-react/static/media/computerCompres.21e7b44d134ded99989c.png",
     "static/media/work4.jpg": "/global-design-react/static/media/work4.30cca26d32c1b0fb68ce.jpg",
     "static/media/work3.jpg": "/global-design-react/static/media/work3.2ebf61950ef0240702c9.jpg",
@@ -10,11 +11,11 @@
     "static/media/work1.jpg": "/global-design-react/static/media/work1.bc98b157dae056f8aabd.jpg",
     "static/media/FONDO.png": "/global-design-react/static/media/FONDO.57eec561d74ba252277d.png",
     "index.html": "/global-design-react/index.html",
-    "main.8001957b.css.map": "/global-design-react/static/css/main.8001957b.css.map",
-    "main.02cfd18c.js.map": "/global-design-react/static/js/main.02cfd18c.js.map"
+    "main.f81f310d.css.map": "/global-design-react/static/css/main.f81f310d.css.map",
+    "main.ace1c9e3.js.map": "/global-design-react/static/js/main.ace1c9e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.8001957b.css",
-    "static/js/main.02cfd18c.js"
+    "static/css/main.f81f310d.css",
+    "static/js/main.ace1c9e3.js"
   ]
 }
