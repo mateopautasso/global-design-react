@@ -38,10 +38,10 @@ function AboutCard() {
 
     return(
         <div className="about-card">
-                <div className="about-card__left">
+                <div className="about-card__left" data-aos="fade-right" data-aos-duration="1000">
                     <AboutImg />
                 </div>
-                <div className="about-card__right">
+                <div className="about-card__right" data-aos="fade-left" data-aos-duration="1000">
                     <SectionTitle sub="ABOUT" title="How are we?"/>
                     <SwitchTransition >
                         <CSSTransition

@@ -33,7 +33,7 @@ function Header() {
         const calculoDeScroll = scrollPositionTotal;
 
         
-        if (scrollPosition >= calculoDeScroll*2.20 && scrollPosition <= calculoDeScroll*4.2) {
+        if (scrollPosition >= calculoDeScroll*2.20 && scrollPosition <= calculoDeScroll*4.6) {
           headerElement.classList.add('scrolled');
         } else {
           headerElement.classList.remove('scrolled');
