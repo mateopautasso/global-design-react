@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/global-design-react/static/css/main.cee2eea6.css",
+    "main.css": "/global-design-react/static/css/main.e60a1b7a.css",
     "main.js": "/global-design-react/static/js/main.14c2fe7e.js",
     "static/media/team-2.jpg": "/global-design-react/static/media/team-2.92e0fe4b5e9117eb6486.jpg",
     "static/media/team-0.jpg": "/global-design-react/static/media/team-0.d33ba7395670883bf99e.jpg",
@@ -14,11 +14,11 @@
     "static/media/work1.jpg": "/global-design-react/static/media/work1.bc98b157dae056f8aabd.jpg",
     "static/media/FONDO.png": "/global-design-react/static/media/FONDO.da5eca2e1d4762391770.png",
     "index.html": "/global-design-react/index.html",
-    "main.cee2eea6.css.map": "/global-design-react/static/css/main.cee2eea6.css.map",
+    "main.e60a1b7a.css.map": "/global-design-react/static/css/main.e60a1b7a.css.map",
     "main.14c2fe7e.js.map": "/global-design-react/static/js/main.14c2fe7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.cee2eea6.css",
+    "static/css/main.e60a1b7a.css",
     "static/js/main.14c2fe7e.js"
   ]
 }
