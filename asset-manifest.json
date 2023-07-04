@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/global-design-react/static/css/main.6f4c05c8.css",
-    "main.js": "/global-design-react/static/js/main.14c2fe7e.js",
+    "main.css": "/global-design-react/static/css/main.de6600e1.css",
+    "main.js": "/global-design-react/static/js/main.b7cb72f7.js",
     "static/media/team-2.jpg": "/global-design-react/static/media/team-2.92e0fe4b5e9117eb6486.jpg",
     "static/media/team-0.jpg": "/global-design-react/static/media/team-0.d33ba7395670883bf99e.jpg",
     "static/media/jeffbezos.jpg": "/global-design-react/static/media/jeffbezos.05061a1f62fed19047c7.jpg",
@@ -14,11 +14,11 @@
     "static/media/work1.jpg": "/global-design-react/static/media/work1.bc98b157dae056f8aabd.jpg",
     "static/media/FONDO.png": "/global-design-react/static/media/FONDO.da5eca2e1d4762391770.png",
     "index.html": "/global-design-react/index.html",
-    "main.6f4c05c8.css.map": "/global-design-react/static/css/main.6f4c05c8.css.map",
-    "main.14c2fe7e.js.map": "/global-design-react/static/js/main.14c2fe7e.js.map"
+    "main.de6600e1.css.map": "/global-design-react/static/css/main.de6600e1.css.map",
+    "main.b7cb72f7.js.map": "/global-design-react/static/js/main.b7cb72f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f4c05c8.css",
-    "static/js/main.14c2fe7e.js"
+    "static/css/main.de6600e1.css",
+    "static/js/main.b7cb72f7.js"
   ]
 }
