@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/global-design-react/static/css/main.12e761d1.css",
-    "main.js": "/global-design-react/static/js/main.33da36f3.js",
+    "main.css": "/global-design-react/static/css/main.b3ed172b.css",
+    "main.js": "/global-design-react/static/js/main.7711eab4.js",
+    "static/media/team-2.jpg": "/global-design-react/static/media/team-2.92e0fe4b5e9117eb6486.jpg",
+    "static/media/team-0.jpg": "/global-design-react/static/media/team-0.d33ba7395670883bf99e.jpg",
     "static/media/jeffbezos.jpg": "/global-design-react/static/media/jeffbezos.05061a1f62fed19047c7.jpg",
     "static/media/computerCompres.png": "/global-design-react/static/media/computerCompres.21e7b44d134ded99989c.png",
+    "static/media/team-1.jpg": "/global-design-react/static/media/team-1.f409879f3c2d605ae5e6.jpg",
     "static/media/work4.jpg": "/global-design-react/static/media/work4.30cca26d32c1b0fb68ce.jpg",
     "static/media/work3.jpg": "/global-design-react/static/media/work3.2ebf61950ef0240702c9.jpg",
     "static/media/FAVICON.png": "/global-design-react/static/media/FAVICON.d7c059e8149024967763.png",
@@ -11,11 +14,11 @@
     "static/media/work1.jpg": "/global-design-react/static/media/work1.bc98b157dae056f8aabd.jpg",
     "static/media/FONDO.png": "/global-design-react/static/media/FONDO.57eec561d74ba252277d.png",
     "index.html": "/global-design-react/index.html",
-    "main.12e761d1.css.map": "/global-design-react/static/css/main.12e761d1.css.map",
-    "main.33da36f3.js.map": "/global-design-react/static/js/main.33da36f3.js.map"
+    "main.b3ed172b.css.map": "/global-design-react/static/css/main.b3ed172b.css.map",
+    "main.7711eab4.js.map": "/global-design-react/static/js/main.7711eab4.js.map"
   },
   "entrypoints": [
-    "static/css/main.12e761d1.css",
-    "static/js/main.33da36f3.js"
+    "static/css/main.b3ed172b.css",
+    "static/js/main.7711eab4.js"
   ]
 }
